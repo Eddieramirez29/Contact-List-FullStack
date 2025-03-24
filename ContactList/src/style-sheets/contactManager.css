@@ -1,0 +1,76 @@
+.management-buttons
+{
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.management-buttons > *
+{
+    border: none;
+    height: 40px;
+    width: 160px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.main-page
+{
+    background-color: #007bff;
+    color: white;
+}
+
+.create-contact
+{
+    background-color: #28a745;
+    color: white;
+}
+
+.contact-list
+{
+    background-color: #ffc107;
+    color: black;
+}
+
+.management-buttons > *:hover
+{
+    filter: brightness(90%);
+}
+
+.profile
+{
+    background-color: #6c757d;
+    color: white;
+    height: 40px;
+    width: 160px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.exit
+{
+    background-color: #dc3545;
+    color: white;
+    height: 40px;
+    width: 160px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.profile:hover, .exit:hover
+{
+    filter: brightness(90%);
+}
+
